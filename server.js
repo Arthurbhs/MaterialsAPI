@@ -8,50 +8,27 @@ app.use(cors());
 
 // Dados de materiais sólidos
 const materials = [
-  // Metais
-  { symbol: "Al", name: "Alumínio", type: "Metal", thermalConductivity: 205 },
-  { symbol: "Cu", name: "Cobre", type: "Metal", thermalConductivity: 385 },
-  { symbol: "Fe", name: "Ferro", type: "Metal", thermalConductivity: 80 },
-  { symbol: "Ag", name: "Prata", type: "Metal", thermalConductivity: 429 },
-  { symbol: "Au", name: "Ouro", type: "Metal", thermalConductivity: 318 },
-  { symbol: "Pb", name: "Chumbo", type: "Metal", thermalConductivity: 35.3 },
-  { symbol: "Zn", name: "Zinco", type: "Metal", thermalConductivity: 116 },
-  { symbol: "Ti", name: "Titânio", type: "Metal", thermalConductivity: 22 },
-  { symbol: "Sn", name: "Estanho", type: "Metal", thermalConductivity: 67 },
-  { symbol: "W", name: "Tungstênio", type: "Metal", thermalConductivity: 174 },
-  { symbol: "Ni", name: "Níquel", type: "Metal", thermalConductivity: 90.9 },
-
-  // Plásticos
-  { symbol: "PE", name: "Polietileno", type: "Plástico", thermalConductivity: 0.4 },
-  { symbol: "PP", name: "Polipropileno", type: "Plástico", thermalConductivity: 0.22 },
-  { symbol: "PVC", name: "Policloreto de Vinila", type: "Plástico", thermalConductivity: 0.19 },
-  { symbol: "PS", name: "Poliestireno", type: "Plástico", thermalConductivity: 0.033 },
-  { symbol: "PET", name: "Polietileno Tereftalato", type: "Plástico", thermalConductivity: 0.24 },
-
-  // Madeiras
-  { symbol: "PM", name: "Pinho", type: "Madeira", thermalConductivity: 0.12 },
-  { symbol: "CM", name: "Carvalho", type: "Madeira", thermalConductivity: 0.16 },
-  { symbol: "BM", name: "Bambu", type: "Madeira", thermalConductivity: 0.14 },
-  { symbol: "EM", name: "Eucalipto", type: "Madeira", thermalConductivity: 0.13 },
-
-  // Rochas
-  { symbol: "GR", name: "Granito", type: "Rocha", thermalConductivity: 3.5 },
-  { symbol: "MR", name: "Mármore", type: "Rocha", thermalConductivity: 2.2 },
-  { symbol: "AR", name: "Arenito", type: "Rocha", thermalConductivity: 1.7 },
-  { symbol: "BX", name: "Basalto", type: "Rocha", thermalConductivity: 1.8 },
-
-  // Papel
-  { symbol: "PP", name: "Papel", type: "Papel", thermalConductivity: 0.05 },
-
-  // Borracha
-  { symbol: "BR", name: "Borracha", type: "Borracha", thermalConductivity: 0.15 },
-
-  // Tecidos
-  { symbol: "ALG", name: "Algodão", type: "Tecido", thermalConductivity: 0.04 },
-  { symbol: "POL", name: "Poliéster", type: "Tecido", thermalConductivity: 0.05 },
-  { symbol: "LÃ", name: "Lã", type: "Tecido", thermalConductivity: 0.035 },
-  { symbol: "SED", name: "Seda", type: "Tecido", thermalConductivity: 0.045 },
-  { symbol: "LIN", name: "Linho", type: "Tecido", thermalConductivity: 0.07 },
+  { name: "Alumínio", type: "Metal", density: 2800, thermalConductivity: { dry: 204, wet: 204 } },
+  { name: "Cobre", type: "Metal", density: 9000, thermalConductivity: { dry: 372, wet: 372 } },
+  { name: "Ligas", type: "Metal", density: 12250, thermalConductivity: { dry: 35, wet: 35 } },
+  { name: "Aço/Ferro", type: "Metal", density: 7800, thermalConductivity: { dry: 52, wet: 52 } },
+  { name: "Zinco", type: "Metal", density: 7200, thermalConductivity: { dry: 110, wet: 110 } },
+  { name: "Basalto/Granito", type: "Pedra Natural", density: 3000, thermalConductivity: { dry: 3.5, wet: 3.5 } },
+  { name: "Calcário/Mármore", type: "Pedra Natural", density: 2700, thermalConductivity: { dry: 2.5, wet: 2.5 } },
+  { name: "Arenito", type: "Pedra Natural", density: 2600, thermalConductivity: { dry: 1.6, wet: 1.6 } },
+  { name: "Tijolo", type: "Alvenaria", density: "1600-1900", thermalConductivity: { dry: "0.6-0.7", wet: "0.9-1.2" } },
+  { name: "Tijolo de Areia-Cal", type: "Alvenaria", density: 1900, thermalConductivity: { dry: 0.9, wet: 1.4 } },
+  { name: "Concreto de Cascalho", type: "Concreto", density: "2300-2500", thermalConductivity: { dry: 2.0, wet: 2.0 } },
+  { name: "Concreto Leve", type: "Concreto", density: "1600-1900", thermalConductivity: { dry: "0.7-0.9", wet: "1.2-1.4" } },
+  { name: "Vidro", type: "Inorgânico", density: 2500, thermalConductivity: { dry: 0.8, wet: 0.8 } },
+  { name: "Lã de Vidro", type: "Inorgânico", density: 150, thermalConductivity: { dry: 0.04, wet: null } },
+  { name: "Madeira Folhosa", type: "Madeira", density: 800, thermalConductivity: { dry: 0.17, wet: 0.23 } },
+  { name: "Madeira Leve", type: "Madeira", density: 550, thermalConductivity: { dry: 0.14, wet: 0.17 } },
+  { name: "Poliéster", type: "Sintético", density: 1200, thermalConductivity: { dry: 0.17, wet: null } },
+  { name: "Polietileno/Polipropileno", type: "Sintético", density: 930, thermalConductivity: { dry: 0.17, wet: null } },
+  { name: "Água", type: "Líquido", density: 1000, thermalConductivity: { dry: 0.58, wet: null } },
+  { name: "Gelo", type: "Sólido", density: 900, thermalConductivity: { dry: 2.2, wet: null } },
+  { name: "Solo Florestal", type: "Solo", density: 1450, thermalConductivity: { dry: 0.8, wet: null } },
 ];
 
 // Rota para obter todos os materiais
@@ -59,9 +36,9 @@ app.get("/materials", (req, res) => {
   res.json(materials);
 });
 
-// Rota para obter um material pelo símbolo (Ex: /materials/Cu)
-app.get("/materials/:symbol", (req, res) => {
-  const material = materials.find(m => m.symbol.toLowerCase() === req.params.symbol.toLowerCase());
+// Rota para obter um material pelo nome
+app.get("/materials/:name", (req, res) => {
+  const material = materials.find(m => m.name.toLowerCase() === req.params.name.toLowerCase());
   if (material) {
     res.json(material);
   } else {
