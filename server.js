@@ -14,8 +14,8 @@ const materials = [
     density: 2800,
     thermalConductivityDry: 204,
     thermalConductivityWet: 204,
-    image: "https://picsum.photos/id/1015/640/480",
-    thumbnail: "https://picsum.photos/id/1015/120/90",
+    image: "https://plus.unsplash.com/premium_photo-1673208484535-66a8f7d05294?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    thumbnail: "https://img.freepik.com/free-photo/crumpled-silver-aluminium-foil-background_23-2148722089.jpg?t=st=1745283364~exp=1745286964~hmac=e0315c3b502f4b7275f59daff9bccfac2bacb9ed0c8909d051d35e015074592a&w=996",
     description: "O alumínio é um metal leve e altamente condutor de calor, amplamente utilizado em aplicações estruturais e de troca térmica."
   },
   {
@@ -24,8 +24,8 @@ const materials = [
     density: 9000,
     thermalConductivityDry: 372,
     thermalConductivityWet: 372,
-    image: "https://picsum.photos/id/1025/640/480",
-    thumbnail: "https://picsum.photos/id/1025/120/90",
+    image: "https://images.unsplash.com/photo-1678119895596-411628b1f6be?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    thumbnail: "https://img.freepik.com/free-photo/panoramic-grunge-copper-pan-texture-patina-oxidized-metal-background-old-metal-panel_166373-3421.jpg?t=st=1745281020~exp=1745284620~hmac=60a578b5dc950aa3287c82a539de79b05660e1229855f919ee08032a96ddbb50&w=996",
     description: "Conhecido por sua excelente condutividade térmica e elétrica, o cobre é essencial em sistemas de refrigeração e elétrica."
   },
   {
@@ -34,8 +34,8 @@ const materials = [
     density: 12250,
     thermalConductivityDry: 35,
     thermalConductivityWet: 35,
-    image: "https://picsum.photos/id/1035/640/480",
-    thumbnail: "https://picsum.photos/id/1035/120/90",
+    image: "https://img.freepik.com/free-photo/man-fixing-motorcycle-modern-workshop_158595-8137.jpg?t=st=1745281680~exp=1745285280~hmac=f0255b18eaa8eab75cdd0bc0bd01468cecf885ac6d4c154018e30a664bfcaee7&w=996",
+    thumbnail: "https://img.freepik.com/free-photo/abstract-metallic-background-with-scratches_1048-6008.jpg?t=st=1745280693~exp=1745284293~hmac=da870262027a8a4d72d7f9ddc203e4cfab5797032e6df3265c2e9600431cb605&w=740",
     description: "As ligas metálicas combinam dois ou mais elementos para melhorar propriedades como resistência mecânica ou resistência à corrosão."
   },
   {
@@ -44,8 +44,8 @@ const materials = [
     density: 7800,
     thermalConductivityDry: 52,
     thermalConductivityWet: 52,
-    image: "https://picsum.photos/id/1045/640/480",
-    thumbnail: "https://picsum.photos/id/1045/120/90",
+    image: "https://img.freepik.com/free-photo/large-steel-factory-warehouse_1127-3285.jpg?t=st=1745280049~exp=1745283649~hmac=289011a7a1b9530d72c9b74bc8bc21559bd4ffcc056bd225cb65d82e2a7352fc&w=996",
+    thumbnail: "https://img.freepik.com/free-photo/silver-metallic-background-with-ventilation-holes_23-2148722009.jpg?t=st=1745280702~exp=1745284302~hmac=f5245b0c7abb126a69ee42b55b0620a7880533a7bcea9cb73401e584d8c6a72b&w=996",
     description: "O aço e o ferro são materiais fundamentais na construção civil e mecânica, oferecendo alta resistência e razoável condutividade térmica."
   },
   {
@@ -54,8 +54,8 @@ const materials = [
     density: 7200,
     thermalConductivityDry: 110,
     thermalConductivityWet: 110,
-    image: "https://picsum.photos/id/1055/640/480",
-    thumbnail: "https://picsum.photos/id/1055/120/90",
+    image: "https://img.freepik.com/free-photo/assortment-food-that-can-cause-allergic-reaction-people_23-2149870588.jpg?t=st=1745283173~exp=1745286773~hmac=6b52d7c50c4e78ca4d647862acd3212fa9fab2f6c2694005aa74cbf0e26e7fef&w=900",
+    thumbnail: "https://img.freepik.com/free-photo/front-view-glass-milk-table_23-2148543708.jpg?t=st=1745282885~exp=1745286485~hmac=2a1f9948aa99adf03aacf8fa82c5ac3f0f178f1320a28fcd1e8620dc42d19642&w=740",
     description: "O zinco é amplamente utilizado para galvanização, protegendo outros metais da corrosão graças à sua boa resistência e condutividade."
   },
   {
@@ -64,8 +64,8 @@ const materials = [
     density: 3000,
     thermalConductivityDry: 3.5,
     thermalConductivityWet: 3.5,
-    image: "https://picsum.photos/id/1065/640/480",
-    thumbnail: "https://picsum.photos/id/1065/120/90",
+    image: "https://plus.unsplash.com/premium_photo-1661903992942-ff1c45b03fe2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QmFzYWx0b3xlbnwwfHwwfHx8MA%3D%3D",
+    thumbnail: "https://images.unsplash.com/photo-1585749864755-f1adb4ec8e29?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R3Jhbml0b3xlbnwwfHwwfHx8MA%3D%3D",
     description: "Pedras naturais como o basalto e o granito são densas e duráveis, sendo utilizadas em pisos, bancadas e aplicações térmicas."
   },
   {
