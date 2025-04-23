@@ -74,8 +74,8 @@ const materials = [
     density: 2700,
     thermalConductivityDry: 2.5,
     thermalConductivityWet: 2.5,
-    image: "https://picsum.photos/id/1075/640/480",
-    thumbnail: "https://picsum.photos/id/1075/120/90",
+    image: "https://images.unsplash.com/photo-1656853695785-522bb0f00e88?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhbGNhcmlvfGVufDB8fDB8fHww",
+    thumbnail: "https://img.freepik.com/free-photo/close-up-black-marble-textured-background_53876-63511.jpg?t=st=1745369191~exp=1745372791~hmac=16b3e4f5f82afff0c0b2f3be2a71639b925b7815ab745e7d70343d700f9a9415&w=996",
     description: "O calcário e o mármore são amplamente usados na construção e acabamento, com boa capacidade térmica e aparência estética."
   },
   {
@@ -84,8 +84,8 @@ const materials = [
     density: 2600,
     thermalConductivityDry: 1.6,
     thermalConductivityWet: 1.6,
-    image: "https://picsum.photos/id/1085/640/480",
-    thumbnail: "https://picsum.photos/id/1085/120/90",
+    image: "https://plus.unsplash.com/premium_photo-1726610747615-3079f7c50686?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXJlbml0b3xlbnwwfHwwfHx8MA%3D%3D",
+    thumbnail: "https://images.unsplash.com/photo-1575042245865-f8b28c7c4439?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXJlbml0b3xlbnwwfHwwfHx8MA%3D%3D",
     description: "O arenito é uma rocha sedimentar utilizada em construções históricas e modernas, com isolamento térmico moderado."
   },
   {
@@ -94,8 +94,8 @@ const materials = [
     density: "1600-1900",
     thermalConductivityDry: "0.6-0.7",
     thermalConductivityWet: "0.9-1.2",
-    image: "https://picsum.photos/id/1095/640/480",
-    thumbnail: "https://picsum.photos/id/1095/120/90",
+    image: "https://images.unsplash.com/photo-1707636497375-fa03615149b2?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    thumbnail: "https://images.unsplash.com/photo-1685644292740-ea8b0a287772?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRpam9sb3xlbnwwfHwwfHx8MA%3D%3D",
     description: "O tijolo é um dos principais elementos de alvenaria, com propriedades térmicas que variam conforme a umidade e composição."
   },
   {
@@ -104,8 +104,8 @@ const materials = [
     density: 1900,
     thermalConductivityDry: 0.9,
     thermalConductivityWet: 1.4,
-    image: "https://picsum.photos/id/1105/640/480",
-    thumbnail: "https://picsum.photos/id/1105/120/90",
+    image: "https://plus.unsplash.com/premium_photo-1675864663520-74ad92da5277?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dGlqb2xvJTIwY2luemF8ZW58MHx8MHx8fDA%3D",
+    thumbnail: "https://plus.unsplash.com/premium_photo-1670168827639-033c8baa538e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGlqb2xvJTIwY2luemF8ZW58MHx8MHx8fDA%3D",
     description: "Esse tipo de tijolo é feito de areia e cal, oferecendo maior resistência e condutividade térmica em ambientes úmidos."
   },
   {
