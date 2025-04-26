@@ -135,7 +135,7 @@ const materials = [
     thermalConductivityDry: 0.8,
     thermalConductivityWet: 0.8,
     image: "https://picsum.photos/id/1135/640/480",
-    thumbnail: "https://picsum.photos/id/1135/120/90",
+    thumbnail: "/imagens/vidro.avif",
     description: "O vidro é um material transparente com boa condutividade térmica, utilizado em janelas e sistemas de isolamento."
   },
   {
@@ -145,7 +145,7 @@ const materials = [
     thermalConductivityDry: 0.04,
     thermalConductivityWet: null,
     image: "https://picsum.photos/id/1145/640/480",
-    thumbnail: "https://picsum.photos/id/1145/120/90",
+    thumbnail: "/imagens/laDeVidro.jpeg",
     description: "Material isolante leve e poroso, a lã de vidro é eficiente na retenção de calor e no isolamento acústico."
   },
   {
@@ -155,7 +155,7 @@ const materials = [
     thermalConductivityDry: 0.17,
     thermalConductivityWet: 0.23,
     image: "https://picsum.photos/id/1155/640/480",
-    thumbnail: "https://picsum.photos/id/1155/120/90",
+    thumbnail: "/imagens/madeiraFolhosa.jpeg",
     description: "Madeiras folhosas são duras e densas, com boas propriedades térmicas e resistência natural."
   },
   {
@@ -165,7 +165,7 @@ const materials = [
     thermalConductivityDry: 0.14,
     thermalConductivityWet: 0.17,
     image: "https://picsum.photos/id/1165/640/480",
-    thumbnail: "https://picsum.photos/id/1165/120/90",
+    thumbnail: "/imagens/madeiraLeve.jpeg",
     description: "A madeira leve é utilizada em construções temporárias e interiores, oferecendo isolamento térmico moderado."
   },
   {
@@ -175,7 +175,7 @@ const materials = [
     thermalConductivityDry: 0.17,
     thermalConductivityWet: null,
     image: "https://picsum.photos/id/1175/640/480",
-    thumbnail: "https://picsum.photos/id/1175/120/90",
+    thumbnail: "/imagens/poliester.jpeg",
     description: "Polímero sintético usado em aplicações têxteis e isolamentos, com baixa condutividade térmica."
   },
   {
@@ -185,7 +185,7 @@ const materials = [
     thermalConductivityDry: 0.17,
     thermalConductivityWet: null,
     image: "https://picsum.photos/id/1185/640/480",
-    thumbnail: "https://picsum.photos/id/1185/120/90",
+    thumbnail: "/imagens/polipropileno.jpeg",
     description: "Plásticos comuns em isolamentos e embalagens, apresentam boa resistência química e baixa condutividade térmica."
   },
   {
@@ -195,7 +195,7 @@ const materials = [
     thermalConductivityDry: 0.58,
     thermalConductivityWet: null,
     image: "https://picsum.photos/id/1195/640/480",
-    thumbnail: "https://picsum.photos/id/1195/120/90",
+    thumbnail: "/imagens/agua.jpeg",
     description: "A água possui alta capacidade térmica, sendo utilizada em sistemas de aquecimento e resfriamento."
   },
   {
