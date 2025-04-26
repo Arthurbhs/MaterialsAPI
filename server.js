@@ -35,7 +35,7 @@ const materials = [
     thermalConductivityDry: 35,
     thermalConductivityWet: 35,
     image: "https://img.freepik.com/free-photo/man-fixing-motorcycle-modern-workshop_158595-8137.jpg?t=st=1745281680~exp=1745285280~hmac=f0255b18eaa8eab75cdd0bc0bd01468cecf885ac6d4c154018e30a664bfcaee7&w=996",
-    thumbnail: "/imagens/liga.avif",
+    thumbnail: "/imagens/ligas.avif",
     description: "As ligas metálicas combinam dois ou mais elementos para melhorar propriedades como resistência mecânica ou resistência à corrosão."
   },
   {
@@ -125,7 +125,7 @@ const materials = [
     thermalConductivityDry: "0.7-0.9",
     thermalConductivityWet: "1.2-1.4",
     image: "https://picsum.photos/id/1125/640/480",
-    thumbnail: "/imagens/concretoLeve.jpeg",
+    thumbnail: "/imagens/concretoLeve.jpg",
     description: "Utilizado em construções que exigem menor peso, o concreto leve tem menor condutividade térmica e boa eficiência energética."
   },
   {
