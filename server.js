@@ -205,7 +205,7 @@ const materials = [
     thermalConductivityDry: 2.2,
     thermalConductivityWet: null,
     image: "https://picsum.photos/id/1205/640/480",
-    thumbnail: "https://picsum.photos/id/1205/120/90",
+    thumbnail: "/imagens/gelo.jpeg",
     description: "O gelo é uma forma sólida da água, com alta condutividade térmica e aplicado em conservação térmica e estudos climáticos."
   },
   {
@@ -215,7 +215,7 @@ const materials = [
     thermalConductivityDry: 0.8,
     thermalConductivityWet: null,
     image: "https://picsum.photos/id/1215/640/480",
-    thumbnail: "https://picsum.photos/id/1215/120/90",
+    thumbnail: "/imagens/solo.jpeg",
     description: "Composto por matéria orgânica e minerais, o solo florestal possui condutividade térmica variável e influencia o balanço térmico do ambiente."
   }
 ];
