@@ -230,7 +230,7 @@ export default {
 		status: 200,
 		headers: {
 		  "Content-Type": "application/json",
-		  "Access-Control-Allow-Origin": "*", // <- ESSENCIAL
+		  "Access-Control-Allow-Origin": "*", 
 		},
 	  });
 	},
